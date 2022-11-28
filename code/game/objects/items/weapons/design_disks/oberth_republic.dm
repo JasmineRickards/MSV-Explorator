@@ -3,7 +3,7 @@
 	disk_name = "Oberth Republic - .25 Mandella"
 	icon_state = "black"
 	rarity_value = 13
-	license = 12
+	license = 15
 	designs = list(
 		/datum/design/autolathe/gun/mandella = 3, // "OR HG .25 Caseless \"Mandella\""
 		/datum/design/autolathe/ammo/cspistol,
@@ -15,7 +15,7 @@
 	disk_name = "Oberth Republic - .20 Bulldog Carabine"
 	icon_state = "black"
 	spawn_tags = SPAWN_TAG_DESIGN_ADVANCED
-	license = 12
+	license = 25
 	designs = list(
 		/datum/design/autolathe/gun/z8 = 3, // "OR CAR .20 \"Z8 Bulldog\""
 		/datum/design/autolathe/ammo/srifle,

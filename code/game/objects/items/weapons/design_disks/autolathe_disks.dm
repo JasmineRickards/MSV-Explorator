@@ -5,7 +5,7 @@
 	icon_state = "black"
 	spawn_tags = SPAWN_TAG_DESIGN_ADVANCED
 	rarity_value = 90
-	license = 12
+	license = 14
 	designs = list(
 		/datum/design/autolathe/gun/dallas = 3, // "PAR .25 CS \"Dallas\""
 		/datum/design/autolathe/ammo/c10x24,
@@ -15,7 +15,7 @@
 	disk_name = "\"Scaramanga\" gold set"
 	icon_state = "onestar"
 	rarity_value = 40
-	license = 15
+	license = 25
 	designs = list(
 		/datum/design/autolathe/sec/gold = 3,
 		/datum/design/autolathe/gun/colt = 3,

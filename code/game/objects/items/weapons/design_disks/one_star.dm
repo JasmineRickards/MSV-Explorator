@@ -5,7 +5,7 @@
 	rarity_value = 70
 	spawn_blacklisted = TRUE
 	spawn_tags = SPAWN_TAG_DESIGN_OS
-	license = 2
+	license = 18
 	designs = list(
 		/datum/design/autolathe/tool/crowbar_onestar,
 		/datum/design/autolathe/tool/combi_driver_onestar,
@@ -18,7 +18,7 @@
 	disk_name = "OS LG \"Cog\""
 	icon_state = "onestar"
 	rarity_value = 5.5
-	license = 12
+	license = 30
 	designs = list(
 		/datum/design/autolathe/gun/retro = 3, //"OS LG \"Cog\""
 		/datum/design/autolathe/cell/medium/high,

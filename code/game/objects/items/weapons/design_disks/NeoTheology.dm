@@ -30,7 +30,7 @@
 // Batteries that printed fully charged, at the cost of some biomatter or plasma being non-refundable
 /obj/item/computer_hardware/hard_drive/portable/design/nt/cells
 	disk_name = "Mekhane Armory - Power Cells Pack"
-	license = 12
+	license = 50
 	designs = list(
 		/datum/design/bioprinter/nt_cells/large = 3,
 		/datum/design/bioprinter/nt_cells/large/plasma = 4,
@@ -43,7 +43,7 @@
 // Laser pistol
 /obj/item/computer_hardware/hard_drive/portable/design/nt/nt_svalinn
 	disk_name = "Mekhane Armory - NT LP \"Svalinn\""
-	license = 12
+	license = 50
 	designs = list(
 		/datum/design/autolathe/gun/nt_svalinn = 2,
 		/datum/design/bioprinter/nt_cells/small
@@ -52,7 +52,7 @@
 // Javelins & bucklers, speed upgrade TODO: light armor
 /obj/item/computer_hardware/hard_drive/portable/design/nt/velite
 	disk_name = "Mekhane Armory - \"Velite Arms\""
-	license = 12
+	license = 50
 	designs = list(
 		/datum/design/autolathe/nt/sword/nt_verutum,
 		/datum/design/autolathe/nt/shield/nt_buckler,
@@ -64,7 +64,7 @@
 	disk_name = "Mekhane Armory - NT GL \"Protector\""
 	spawn_tags = SPAWN_TAG_DESIGN_ADVANCED
 	rarity_value = 90
-	license = 12
+	license = 50
 	designs = list(
 		/datum/design/autolathe/gun/grenade_launcher = 6, // "NT GL \"Protector\""
 		/datum/design/autolathe/ammo/nt_stinger
@@ -73,7 +73,7 @@
 // Greatshields & greatswords, space-worthy armor, protection upgrade
 /obj/item/computer_hardware/hard_drive/portable/design/nt/principes
 	disk_name = "Mekhane Armory - \"Principes Arms\""
-	license = 12
+	license = 50
 	designs = list(
 		/datum/design/bioprinter/storage/sheath = 0,
 		/datum/design/autolathe/nt/sword/nt_longsword,
@@ -85,7 +85,7 @@
 // First aid kits, TODO: proximity healing/stabilizing cruciform upgrade
 /obj/item/computer_hardware/hard_drive/portable/design/nt/medicii
 	disk_name = "Mekhane Armory - \"Medicii Supplies\""
-	license = 12
+	license = 50
 	designs = list(
 		/datum/design/autolathe/firstaid/nt,
 		/datum/design/autolathe/cruciform_upgrade/natures_blessing
@@ -96,7 +96,7 @@
 	disk_name = "Mekhane Armory - NT PR \"Dominion\""
 	spawn_tags = SPAWN_TAG_DESIGN_ADVANCED
 	rarity_value = 50
-	license = 6
+	license = 25
 	spawn_blacklisted = FALSE
 	designs = list(
 		/datum/design/autolathe/gun/plasma/dominion = 3, //"NT PR \"Dominion\""
@@ -106,7 +106,7 @@
 // Heavy weapons, heavy armor
 /obj/item/computer_hardware/hard_drive/portable/design/nt/triarii
 	disk_name = "Mekhane Armory - \"Triarii Arms\""
-	license = 12
+	license = 25
 	designs = list(
 		/datum/design/bioprinter/storage/sheath = 0,
 		/datum/design/autolathe/nt/sword/nt_scourge,
@@ -120,7 +120,7 @@
 // Grenades - includes heatwave for launchers
 /obj/item/computer_hardware/hard_drive/portable/design/nt/grenades
 	disk_name = "Mekhane Armory - Grenades Pack"
-	license = 12
+	license = 8
 	designs = list(
 		/datum/design/autolathe/nt/grenade/nt_heatwave = 2,
 		/datum/design/autolathe/nt/grenade/nt_flashbang,
@@ -132,7 +132,7 @@
 /obj/item/computer_hardware/hard_drive/portable/design/nt/nt_lightfall
 	disk_name = "Mekhane Armory - Lightfall Laser Gun"
 	spawn_tags = SPAWN_TAG_DESIGN_ADVANCED
-	license = 12
+	license = 25
 	designs = list(
 		/datum/design/autolathe/gun/laser = 3, // "NT LG \"Lightfall\""
 		/datum/design/bioprinter/nt_cells/medium
@@ -270,7 +270,7 @@
 	icon_state = "neotheology"
 	spawn_tags = SPAWN_TAG_DESIGN_ADVANCED
 	rarity_value = 50
-	license = 12
+	license = 25
 	designs = list(
 		/datum/design/autolathe/gun/energy_crossbow = 3, // "NT EC \"Nemesis\"" - self charging, no cell needed
 	)
@@ -280,7 +280,7 @@
 	icon_state = "neotheology"
 	spawn_tags = SPAWN_TAG_DESIGN_ADVANCED
 	rarity_value = 50
-	license = 12
+	license = 20
 	designs = list(
 		/datum/design/autolathe/gun/sniperrifle = 3, //"NT MER \"Valkyrie\""
 		/datum/design/autolathe/cell/medium/high,
@@ -291,7 +291,7 @@
 	icon_state = "neotheology"
 	spawn_tags = SPAWN_TAG_DESIGN_ADVANCED
 	rarity_value = 33.33
-	license = 12
+	license = 18
 	designs = list(
 		/datum/design/autolathe/gun/ionrifle = 3, // "NT IR \"Halicon\""
 		/datum/design/autolathe/cell/medium/high,
@@ -304,7 +304,7 @@
 	icon_state = "neotheology"
 	spawn_tags = SPAWN_TAG_DESIGN_ADVANCED
 	rarity_value = 17
-	license = 12
+	license = 25
 	spawn_blacklisted = FALSE
 	designs = list(
 		/datum/design/autolathe/gun/taser = 3, // "NT SP \"Counselor\""
@@ -315,7 +315,7 @@
 	disk_name = "Mekhane Armory - .35 MK58 Handgun Pack"
 	icon_state = "neotheology"
 	rarity_value = 9
-	license = 12
+	license = 25
 	designs = list(
 		/datum/design/autolathe/gun/mk58 = 3,
 		/datum/design/autolathe/gun/mk58_wood = 3,
@@ -328,7 +328,7 @@
 	disk_name = "Mekhane Armory - .50 Regulator Shotgun"
 	icon_state = "neotheology"
 	rarity_value = 17
-	license = 12
+	license = 30
 	designs = list(
 		/datum/design/autolathe/gun/regulator = 3, // "NT SG \"Regulator 1000\""
 		/datum/design/autolathe/ammo/shotgun_pellet,
@@ -347,7 +347,7 @@
 	icon_state = "neotheology"
 	spawn_tags = SPAWN_TAG_DESIGN_ADVANCED
 	rarity_value = 90 // LMG level
-	license = 12
+	license = 25
 	designs = list(
 		/datum/design/autolathe/gun/plasma/destroyer = 3, // "NT PR \"Purger\""
 		/datum/design/autolathe/cell/medium/high

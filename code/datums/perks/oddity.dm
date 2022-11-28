@@ -311,7 +311,7 @@
 		"hey is someone out there I need help please",
 		"AHEUHEUHEU",
 		"wetskrell.nt exonet archive",
-		"CEV Eris schematics",
+		"MSV-Explorator schematics",
 		"borg keygen free download",
 		"special deal",
 		"HEAVEN",

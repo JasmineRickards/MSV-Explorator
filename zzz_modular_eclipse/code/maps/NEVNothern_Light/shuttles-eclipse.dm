@@ -12,7 +12,7 @@
 	dock_target = "centcom_shuttle"
 	current_location = "nav_centcom_start"
 	landmark_transition = "nav_centcom_transition"
-	announcer = "NEV Northern Light Sensor Array"
+	announcer = "MSV-Explorator Sensor Array"
 	home_waypoint = "nav_centcom_start"
 	arrival_message = "Attention, unidentified vessel detected on long range sensors. \nVessel is approaching on an intercept course. \nHailing frequencies open."
 	departure_message = "Attention, unknown vessel has departed"

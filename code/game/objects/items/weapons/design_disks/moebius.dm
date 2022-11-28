@@ -4,7 +4,7 @@
 	icon_state = "moebius"
 	rarity_value = 4.5
 	spawn_tags = SPAWN_TAG_DESIGN_COMMON
-	license = 20
+	license = 40
 	designs = list(
 		/datum/design/autolathe/gun/syringe_gun,
 		/datum/design/autolathe/misc/penflashlight,
@@ -32,7 +32,7 @@
 /obj/item/computer_hardware/hard_drive/portable/design/surgery
 	disk_name = "Back Alley Organs"
 	icon_state = "moebius"
-	license = 10
+	license = 20
 	designs = list(
 		/datum/design/bioprinter/lungs,
 		/datum/design/bioprinter/heart,
@@ -47,7 +47,7 @@
 	icon_state = "moebius"
 	spawn_tags = SPAWN_TAG_DESIGN_COMMON
 	rarity_value = 4.5
-	license = 20
+	license = 50
 	designs = list(
 		/datum/design/autolathe/computer_part/frame_pda,
 		/datum/design/autolathe/computer_part/frame_tablet,
@@ -82,7 +82,7 @@
 	icon_state = "moebius"
 	spawn_tags = SPAWN_TAG_DESIGN_ADVANCED
 	rarity_value = 50
-	license = 12
+	license = 24
 	designs = list(
 		/datum/design/autolathe/gun/dart_gun = 3, // Z-H P Artemis"
 		/datum/design/autolathe/ammo/dart_mag,

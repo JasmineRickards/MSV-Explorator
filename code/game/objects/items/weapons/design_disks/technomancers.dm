@@ -4,7 +4,7 @@
 	icon_state = "technomancers"
 	rarity_value = 4
 	spawn_tags = SPAWN_TAG_DESIGN_COMMON
-	license = 20
+	license = 80
 	designs = list(
 		/datum/design/autolathe/part/consolescreen,
 		/datum/design/autolathe/part/cable_coil = 0,
@@ -22,7 +22,8 @@
 		/datum/design/autolathe/part/sensor_prox,
 		/datum/design/autolathe/part/camera_assembly,
 		/datum/design/autolathe/part/laserguide,
-		/datum/design/autolathe/container/hcase_parts
+		/datum/design/autolathe/container/hcase_parts,
+		/datum/design/research/item/part/RPED
 	)
 
 /obj/item/computer_hardware/hard_drive/portable/design/adv_tools
@@ -30,7 +31,7 @@
 	icon_state = "technomancers"
 	rarity_value = 11
 	spawn_tags = SPAWN_TAG_DESIGN_ADVANCED_COMMON
-	license = 10
+	license = 20
 	designs = list(
 		/datum/design/autolathe/tool/big_wrench,
 		/datum/design/autolathe/tool/pneumatic_crowbar,
@@ -59,7 +60,7 @@
 	icon_state = "technomancers"
 	spawn_tags = SPAWN_TAG_DESIGN_COMMON
 	rarity_value = 5.5
-	license = 10
+	license = 45
 	designs = list(
 		/datum/design/autolathe/circuit/airlockmodule = 0,
 		/datum/design/autolathe/circuit/airlockmodule/secure,

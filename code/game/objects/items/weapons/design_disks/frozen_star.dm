@@ -4,7 +4,7 @@
 	icon_state = "frozenstar"
 	spawn_tags = SPAWN_TAG_DESIGN_ADVANCED_COMMON
 	rarity_value = 20
-	license = 20
+	license = 45
 	designs = list(
 		//please, maintain general order (pistol>speedloaders>smg>other>shells)+(smaller/less damaging caliber>bigger/more damaging caliber)
 		//pistol mags
@@ -34,7 +34,7 @@
 	disk_name = "Frozen Star Lethal Magazines Pack"
 	icon_state = "frozenstar"
 	spawn_tags = SPAWN_TAG_DESIGN_ADVANCED_COMMON
-	license = 20
+	license = 40
 	designs = list(
 		//please, maintain general order (pistol>speedloaders>smg>other>shells)+(smaller/less damaging caliber>bigger/more damaging caliber)
 		//pistol mags
@@ -63,7 +63,7 @@
 	disk_name = "Frozen Star .35 and .40 Ammunition"
 	icon_state = "frozenstar"
 	spawn_tags = SPAWN_TAG_DESIGN_ADVANCED_COMMON
-	license = 20
+	license = 30
 	designs = list(
 		/datum/design/autolathe/ammo/pistol_ammobox,
 		/datum/design/autolathe/ammo/pistol_ammobox/practice = 0,
@@ -77,7 +77,7 @@
 	disk_name = "Frozen Star Rifle Ammunition"
 	icon_state = "frozenstar"
 	spawn_tags = SPAWN_TAG_DESIGN_ADVANCED_COMMON
-	license = 20
+	license = 30
 	designs = list(
 		/datum/design/autolathe/ammo/srifle_ammobox_small,
 		/datum/design/autolathe/ammo/srifle_ammobox_small/practice = 0,
@@ -99,7 +99,7 @@
 	disk_name = "Frozen Star Basic - .35 Civilian Pack"
 	icon_state = "frozenstar"
 	rarity_value = 7
-	license = 12
+	license = 50
 	designs = list(
 		/datum/design/autolathe/gun/giskard = 3,
 		/datum/design/autolathe/gun/olivaw = 3,
@@ -117,7 +117,7 @@
 	disk_name = "Frozen Star - .35 Colt 1911"
 	icon_state = "frozenstar"
 	rarity_value = 9
-	license = 12
+	license = 25
 	designs = list(
 		/datum/design/autolathe/gun/colt = 3, //"FS HG .35 Auto \"Colt M1911\""
 		/datum/design/autolathe/ammo/magazine_pistol,
@@ -131,7 +131,7 @@
 	disk_name = "Frozen Star - .40 Miller Revolver"
 	icon_state = "frozenstar"
 	rarity_value = 13
-	license = 12
+	license = 25
 	designs = list(
 		/datum/design/autolathe/gun/revolver = 3, // "FS REV .40 \"Miller\""
 		/datum/design/autolathe/ammo/sl_magnum,
@@ -143,7 +143,7 @@
 	disk_name = "Frozen Star - .40 Consul Revolver"
 	icon_state = "frozenstar"
 	spawn_tags = SPAWN_TAG_DESIGN_ADVANCED
-	license = 12
+	license = 25
 	designs = list(
 		/datum/design/autolathe/gun/revolver_consul = 3, // "FS REV .40 \"Consul\""
 		/datum/design/autolathe/ammo/sl_magnum,
@@ -155,7 +155,7 @@
 	disk_name = "Frozen Star - .40 Deckard Revolver"
 	icon_state = "frozenstar"
 	spawn_tags = SPAWN_TAG_DESIGN_ADVANCED
-	license = 12
+	license = 25
 	designs = list(
 		/datum/design/autolathe/gun/revolver_deckard = 3, // "FS REV .40 \"Deckard\""
 		/datum/design/autolathe/ammo/sl_magnum,
@@ -168,7 +168,7 @@
 	icon_state = "frozenstar"
 	spawn_tags = SPAWN_TAG_DESIGN_ADVANCED
 	rarity_value = 90
-	license = 12
+	license = 25
 	designs = list(
 		/datum/design/autolathe/gun/revolver_mateba = 3, // "FS REV .40 Magnum \"Mateba\""
 		/datum/design/autolathe/ammo/sl_magnum,
@@ -183,7 +183,7 @@
 	icon_state = "frozenstar"
 	spawn_tags = SPAWN_TAG_DESIGN_ADVANCED
 	rarity_value = 90
-	license = 12
+	license = 25
 	designs = list(
 		/datum/design/autolathe/gun/lamia = 3, // "FS HG .40 \"Lamia\""
 		/datum/design/autolathe/ammo/mg_magnum,
@@ -196,7 +196,7 @@
 	icon_state = "frozenstar"
 	spawn_tags = SPAWN_TAG_DESIGN_ADVANCED
 	rarity_value = 50
-	license = 12
+	license = 25
 	designs = list(
 		/datum/design/autolathe/gun/avasarala = 3, // "FS HG .40 \"Avasarala\""
 		/datum/design/autolathe/ammo/mg_magnum,
@@ -210,7 +210,7 @@
 	disk_name = "Frozen Star - .50 Double Barrel Shotgun"
 	icon_state = "frozenstar"
 	rarity_value = 9
-	license = 12
+	license = 25
 	designs = list(
 		/datum/design/autolathe/gun/doublebarrel = 3, // "double-barreled shotgun"
 		/datum/design/autolathe/ammo/shotgun_pellet,
@@ -224,7 +224,7 @@
 	disk_name = "Frozen Star - .50 Kammerer Shotgun"
 	icon_state = "frozenstar"
 	rarity_value = 9
-	license = 12
+	license = 35
 	designs = list(
 		/datum/design/autolathe/gun/pump_shotgun = 3, // "FS SG \"Kammerer\""
 		/datum/design/autolathe/ammo/shotgun_pellet,
@@ -240,7 +240,7 @@
 	icon_state = "frozenstar"
 	spawn_tags = SPAWN_TAG_DESIGN_ADVANCED
 	rarity_value = 17
-	license = 12
+	license = 35
 	designs = list(
 		/datum/design/autolathe/gun/gladstone = 3, // "FS SG \"Gladstone\""
 		/datum/design/autolathe/ammo/shotgun_pellet,
@@ -256,7 +256,7 @@
 	disk_name = "Frozen Star - .35 Paco HG"
 	icon_state = "frozenstar"
 	rarity_value = 13
-	license = 12
+	license = 25
 	designs = list(
 		/datum/design/autolathe/gun/paco = 3, // "FS HG .35 \"Paco\""
 		/datum/design/autolathe/ammo/magazine_pistol,
@@ -268,7 +268,7 @@
 	disk_name = "Frozen Star - .35 Straylight SMG"
 	icon_state = "frozenstar"
 	spawn_tags = SPAWN_TAG_DESIGN_ADVANCED
-	license = 12
+	license = 25
 	designs = list(
 		/datum/design/autolathe/gun/straylight = 3, // "FS SMG .35 \"Straylight\""
 		/datum/design/autolathe/ammo/smg,
@@ -280,7 +280,7 @@
 	disk_name = "Frozen Star - .35 Molly SMG"
 	icon_state = "frozenstar"
 	spawn_tags = SPAWN_TAG_DESIGN_ADVANCED
-	license = 12
+	license = 25
 	designs = list(
 		/datum/design/autolathe/gun/molly = 3, // "FS MP .35 \"Molly\""
 		/datum/design/autolathe/ammo/smg,
@@ -293,7 +293,7 @@
 	disk_name = "Frozen Star - .35 Atreides SMG"
 	icon_state = "frozenstar"
 	spawn_tags = SPAWN_TAG_DESIGN_ADVANCED
-	license = 12
+	license = 25
 	designs = list(
 		/datum/design/autolathe/gun/atreides = 3, // "FS SMG .35 \"Atreides\""
 		/datum/design/autolathe/ammo/smg,
@@ -305,7 +305,7 @@
 	disk_name = "Frozen Star - .35 Slaught-o-Matic HG"
 	icon_state = "frozenstar"
 	rarity_value = 7
-	license = 12
+	license = 25
 	designs = list(
 		/datum/design/autolathe/gun/slaught_o_matic = 1 // "FS HG .35 \"Slaught-o-Matic\""
 	)
@@ -315,7 +315,7 @@
 	icon_state = "frozenstar"
 	spawn_tags = SPAWN_TAG_DESIGN_ADVANCED
 	rarity_value = 90
-	license = 12
+	license = 25
 	designs = list(
 		/datum/design/autolathe/gun/wintermute = 3, // "FS BR .20 \"Wintermute\""
 		/datum/design/autolathe/ammo/srifle,
@@ -329,7 +329,7 @@
 	disk_name = "Frozen Star - .25 Sol Caseless SMG Pack"
 	icon_state = "frozenstar"
 	spawn_tags = SPAWN_TAG_DESIGN_ADVANCED
-	license = 12
+	license = 25
 	designs = list(
 		/datum/design/autolathe/gun/sol = 3, // "FS CAR .25 caseless \"Sol\""
 		/datum/design/autolathe/ammo/ihclrifle,
@@ -342,7 +342,7 @@
 	disk_name = "Frozen Star - .30 Hunting Rifle Pack"
 	icon_state = "frozenstar"
 	spawn_tags = SPAWN_TAG_DESIGN_ADVANCED
-	license = 12
+	license = 25
 	designs = list(
 
 		/datum/design/autolathe/gun/ak47_fs = 3, // "FS AR .30 \"Vipr\""
@@ -356,7 +356,7 @@
 	icon_state = "frozenstar"
 	spawn_tags = SPAWN_TAG_DESIGN_ADVANCED
 	rarity_value = 30
-	license = 12
+	license = 25
 	designs = list(
 		/datum/design/autolathe/gun/ak47_fs_ih = 3, // "FS AR .30 \"Venger\""
 		/datum/design/autolathe/ammo/lrifle,
@@ -369,7 +369,7 @@
 	icon_state = "frozenstar"
 	spawn_tags = SPAWN_TAG_DESIGN_ADVANCED
 	rarity_value = 90
-	license = 15
+	license = 25
 	designs = list(
 		/datum/design/autolathe/gun/grenade_launcher_lenar = 3, // "FS GL \"Lenar\""
 	)
@@ -378,7 +378,7 @@
 	disk_name = "Frozen Star - Spider Rose PDW E"
 	icon_state = "frozenstar"
 	spawn_tags = SPAWN_TAG_DESIGN_ADVANCED
-	license = 12
+	license = 25
 	designs = list(
 		/datum/design/autolathe/gun/energygun = 3, // "FS PDW E \"Spider Rose\""
 		/datum/design/autolathe/cell/medium/high,
@@ -388,7 +388,7 @@
 	disk_name = "Frozen Star - Martin PDW E"
 	icon_state = "frozenstar"
 	rarity_value = 9
-	license = 12
+	license = 25
 	designs = list(
 		/datum/design/autolathe/gun/energygun_martin = 3, // "FS PDW E \"Martin\""
 		/datum/design/autolathe/cell/small/high,
@@ -399,7 +399,7 @@
 	icon_state = "frozenstar"
 	spawn_tags = SPAWN_TAG_DESIGN_ADVANCED
 	rarity_value = 90
-	license = 12
+	license = 25
 	designs = list(
 		/datum/design/autolathe/gun/plasma/cassad = 3, // "FS PR \"Cassad\""
 		/datum/design/autolathe/cell/medium/high,
@@ -410,7 +410,24 @@
 	icon_state = "frozenstar"
 	spawn_tags = SPAWN_TAG_DESIGN_ADVANCED
 	rarity_value = 90
-	license = 12
+	license = 25
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	designs = list(
 		/datum/design/autolathe/gun/lmg_tk = 3, // "FS LMG .30 \"Takeshi\""
 		/datum/design/autolathe/ammo/lrifle_pk,

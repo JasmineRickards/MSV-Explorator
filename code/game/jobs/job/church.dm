@@ -4,7 +4,7 @@
 	head_position = 1
 	department = DEPARTMENT_CHURCH
 	department_flag = CHURCH | COMMAND
-	faction = "NEV Northern Light"
+	faction = "MSV-Explorator"
 	total_positions = 1
 	spawn_positions = 1
 	supervisors = "The Mekhanite Council"
@@ -42,7 +42,7 @@
 		CRUCIFORM_REDLIGHT
 	)
 
-	description = "You are the head of a local branch of the Church of the Children of Mekhane. You represent the church's interests aboard the NEV Northern Light, as well as the interests of Mekhane disciples among the crew. The church is a major contributor to the funding of the Northern Light's mission, and demands respect.<br>\
+	description = "You are the head of a local branch of the Church of the Children of Mekhane. You represent the church's interests aboard the MSV-Explorator, as well as the interests of Mekhane disciples among the crew. The church is a major contributor to the funding of the Northern Light's mission, and demands respect.<br>\
 	<br>\
 	Your duties aboard the ship may not seem so important to its mission, but they have greater significance in the galaxy as a whole. As well as a more immediate significance to the morale of the crew, especially the followers of the Mekhane.<br>\
 	<br>\
@@ -57,7 +57,7 @@
 	Above all else, remember that Mekhane is a religion of tolerance."
 
 
-	duties = "Represent the interests of the Mekhanite Council and your fellow disciples aboard the NEV Northern Light. Protect them from persecution and speak for them.<br>\
+	duties = "Represent the interests of the Mekhanite Council and your fellow disciples aboard the MSV-Explorator. Protect them from persecution and speak for them.<br>\
 		Hold mass, give sermons, preach to the faithful, and lead group ritual sessions.<br>\
 		Try to protect sapient life in all its myriad forms, especially the Vagabond for they are epitome of the downtrodden here.<br>\
 		Recover and clone the dead, for all sapient life is precious.<br>\
@@ -75,7 +75,7 @@
 	flag = ACOLYTE
 	department = DEPARTMENT_CHURCH
 	department_flag = CHURCH
-	faction = "NEV Northern Light"
+	faction = "MSV-Explorator"
 	total_positions = 4
 	spawn_positions = 4
 	supervisors = "the Mekhane Preacher"
@@ -120,7 +120,7 @@
 	flag = BOTANIST
 	department = DEPARTMENT_CHURCH
 	department_flag = CHURCH
-	faction = "NEV Northern Light"
+	faction = "MSV-Explorator"
 	total_positions = 3
 	spawn_positions = 3
 	supervisors = "the Mekhane Preacher"
@@ -168,7 +168,7 @@
 	flag = JANITOR
 	department = DEPARTMENT_CHURCH
 	department_flag = CHURCH
-	faction = "NEV Northern Light"
+	faction = "MSV-Explorator"
 	total_positions = 2
 	spawn_positions = 2
 	supervisors = "the Mekhane Preacher"

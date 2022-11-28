@@ -9,7 +9,7 @@
 /datum/computer_file/report/recipient/crew_transfer/generate_fields()
 	..()
 	var/list/xo_fields = list()
-	add_field(/datum/report_field/instruction, "NEV Northern Light - Office of the Head of Personnel")
+	add_field(/datum/report_field/instruction, "MSV-Explorator - Office of the Head of Personnel")
 	add_field(/datum/report_field/people/from_manifest, "Name (XO)")
 	add_field(/datum/report_field/people/from_manifest, "Name (applicant)", required = 1)
 	add_field(/datum/report_field/date, "Date filed")
@@ -35,7 +35,7 @@
 /datum/computer_file/report/recipient/access_modification/generate_fields()
 	..()
 	var/list/xo_fields = list()
-	add_field(/datum/report_field/instruction, "NEV Northern Light - Office of the Head of Personnel")
+	add_field(/datum/report_field/instruction, "MSV-Explorator - Office of the Head of Personnel")
 	add_field(/datum/report_field/people/from_manifest, "Name (XO)")
 	add_field(/datum/report_field/people/from_manifest, "Name (applicant)", required = 1)
 	add_field(/datum/report_field/date, "Date filed")
@@ -61,7 +61,7 @@
 /datum/computer_file/report/recipient/borging/generate_fields()
 	..()
 	var/list/xo_fields = list()
-	add_field(/datum/report_field/instruction, "NEV Northern Light - Office of the Head of Personnel")
+	add_field(/datum/report_field/instruction, "MSV-Explorator - Office of the Head of Personnel")
 	add_field(/datum/report_field/people/from_manifest, "Name (XO)")
 	add_field(/datum/report_field/people/from_manifest, "Name (subject)", required = 1)
 	add_field(/datum/report_field/date, "Date filed")
@@ -88,7 +88,7 @@
 
 /datum/computer_file/report/recipient/sec/warning/generate_fields()
 	..()
-	add_field(/datum/report_field/instruction, "Aegis Division NEV Northern Light")
+	add_field(/datum/report_field/instruction, "Aegis Division MSV-Explorator")
 	add_field(/datum/report_field/instruction, "Written Warning.")
 	add_field(/datum/report_field/people/from_manifest, "Name")
 	add_field(/datum/report_field/pencode_text, "Department")
@@ -106,7 +106,7 @@
 /datum/computer_file/report/recipient/sec/complaint/generate_fields()
 	..()
 	add_field(/datum/report_field/instruction, "Aegis Complaint Form")
-	add_field(/datum/report_field/instruction, "Vessel: NEV Northern Light")
+	add_field(/datum/report_field/instruction, "Vessel: MSV-Explorator")
 	add_field(/datum/report_field/date, "Date")
 	add_field(/datum/report_field/time, "Time")
 	add_field(/datum/report_field/people/from_manifest, "Name of Complainent:")
@@ -126,7 +126,7 @@
 
 /datum/computer_file/report/recipient/sec/investigation/generate_fields()
 	..()
-	add_field(/datum/report_field/instruction, "Aegis Division NEV Northern Light")
+	add_field(/datum/report_field/instruction, "Aegis Division MSV-Explorator")
 	add_field(/datum/report_field/instruction, "For internal use only.")
 	add_field(/datum/report_field/people/from_manifest, "Name")
 	add_field(/datum/report_field/date, "Date")
@@ -144,7 +144,7 @@
 
 /datum/computer_file/report/recipient/sec/incident/generate_fields()
 	..()
-	add_field(/datum/report_field/instruction, "Aegis Division NEV Northern Light")
+	add_field(/datum/report_field/instruction, "Aegis Division MSV-Explorator")
 	add_field(/datum/report_field/instruction, "To be filled out by Operative on duty responding to the Incident. Report must be signed and submitted before the end of the shift!")
 	add_field(/datum/report_field/people/from_manifest, "Reporting Operative")
 	add_field(/datum/report_field/simple_text, "Offense/Incident Type")
@@ -166,7 +166,7 @@
 /datum/computer_file/report/recipient/sec/evidence/generate_fields()
 	..()
 	var/datum/report_field/temp_field
-	add_field(/datum/report_field/instruction, "Aegis Division NEV Northern Light")
+	add_field(/datum/report_field/instruction, "Aegis Division MSV-Explorator")
 	add_field(/datum/report_field/date, "Date")
 	add_field(/datum/report_field/time, "Time")
 	add_field(/datum/report_field/people/from_manifest, "Confiscated from")
@@ -194,7 +194,7 @@
 
 /datum/computer_file/report/recipient/docked/generate_fields()
 	..()
-	add_field(/datum/report_field/instruction, "NEV Northern Light Supply and Hangar Management Department")
+	add_field(/datum/report_field/instruction, "MSV-Explorator Supply and Hangar Management Department")
 	add_field(/datum/report_field/instruction, "General Info")
 	add_field(/datum/report_field/date, "Date")
 	add_field(/datum/report_field/simple_text, "Vessel Name")
@@ -226,7 +226,7 @@
 
 /datum/computer_file/report/recipient/fauna/generate_fields()
 	..()
-	add_field(/datum/report_field/instruction, "NEV Northern Light Expeditions")
+	add_field(/datum/report_field/instruction, "MSV-Explorator Expeditions")
 	add_field(/datum/report_field/instruction, "The following is to be filled out by members of a Expedition team after discovery and study of new alien life forms.")
 	add_field(/datum/report_field/date, "Date")
 	add_field(/datum/report_field/people/list_from_manifest, "Personnel Involved")
@@ -247,7 +247,7 @@
 	logo = "\[lazarus\]"
 
 /datum/computer_file/report/recipient/laz/proc/add_header()
-	add_field(/datum/report_field/simple_text, "Vessel", "NEV Northern Light")
+	add_field(/datum/report_field/simple_text, "Vessel", "MSV-Explorator")
 	add_field(/datum/report_field/date, "Date")
 	add_field(/datum/report_field/time, "Time")
 	add_field(/datum/report_field/simple_text, "Index")
@@ -276,7 +276,7 @@
 	logo = "\[logo\]"
 
 /datum/computer_file/report/recipient/nt/proc/add_header()
-	add_field(/datum/report_field/simple_text, "Vessel", "NEV Northern Light")
+	add_field(/datum/report_field/simple_text, "Vessel", "MSV-Explorator")
 	add_field(/datum/report_field/date, "Date")
 	add_field(/datum/report_field/time, "Time")
 	add_field(/datum/report_field/simple_text, "Index")
@@ -319,7 +319,7 @@
 
 /datum/computer_file/report/recipient/nt/incident/ship
 	form_name = "NEV-3203"
-	title = "NEV Northern Light Ship Incident Report"
+	title = "MSV-Explorator Ship Incident Report"
 	available_on_ntnet = 1
 
 /datum/computer_file/report/recipient/nt/incident/ship/generate_fields()
@@ -330,7 +330,7 @@
 
 /datum/computer_file/report/recipient/nt/incident/personnel
 	form_name = "NEV-3205"
-	title = "NEV Northern Light Personnel Incident Report"
+	title = "MSV-Explorator Personnel Incident Report"
 	available_on_ntnet = 1
 
 /datum/computer_file/report/recipient/nt/incident/personnel/generate_fields()
@@ -340,13 +340,13 @@
 
 /datum/computer_file/report/recipient/sec/incident/asset
 	form_name = "AIR-AS-3201"
-	title = "NEV Northern Light Asset Incident Report"
+	title = "MSV-Explorator Asset Incident Report"
 	available_on_ntnet = 1
 
 /datum/computer_file/report/recipient/nt/incident/asset/generate_fields()
 	..()
-	add_field(/datum/report_field/pencode_text, "NEV Northern Light Employee Injuries")
-	add_field(/datum/report_field/pencode_text, "NEV Northern Light Assets Lost")
+	add_field(/datum/report_field/pencode_text, "MSV-Explorator Employee Injuries")
+	add_field(/datum/report_field/pencode_text, "MSV-Explorator Assets Lost")
 	add_signatures()
 
 /datum/computer_file/report/recipient/sec/incident/xeno
@@ -364,7 +364,7 @@
 
 /datum/computer_file/report/recipient/nt/incident/crew
 	form_name = "NEV-3241"
-	title = "NEV Northern Light Ship Crew/Employee Incident Report"
+	title = "MSV-Explorator Ship Crew/Employee Incident Report"
 	available_on_ntnet = 1
 
 /datum/computer_file/report/recipient/nt/incident/crew/generate_fields()
@@ -464,7 +464,7 @@
 
 /datum/computer_file/report/recipient/nt/visa
 	form_name = "NEV-0952"
-	title = "NEV Northern Light ID or PDA Request Form"
+	title = "MSV-Explorator ID or PDA Request Form"
 	available_on_ntnet = 1
 
 /datum/computer_file/report/recipient/nt/visa/generate_fields()
@@ -507,7 +507,7 @@
 
 /datum/computer_file/report/recipient/eng/audit
 	form_name = "EDA-AG-12"
-	title = "NEV Northern Light Department Audit"
+	title = "MSV-Explorator Department Audit"
 	available_on_ntnet = 1
 
 /datum/computer_file/report/recipient/eng/audit/generate_fields()

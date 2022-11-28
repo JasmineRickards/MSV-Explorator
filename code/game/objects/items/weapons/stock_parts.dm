@@ -296,6 +296,54 @@
 	matter = list(MATERIAL_PLASTIC = 3, MATERIAL_GLASS = 1)
 	spawn_blacklisted = TRUE
 
+
+//Alien tier parts produced by the AI exclusively.
+
+/obj/item/stock_parts/capacitor/AI
+	name = "WB brand capacitor"
+	desc = "A high performance capacitor, capable of exceedingly high power manipulation, primarily used in the AIs own servers and machines."
+	icon_state = "alien_capacitor"
+	origin_tech = list(TECH_POWER = 5, TECH_MATERIAL = 5)
+	rating = 6
+	matter = list(MATERIAL_STEEL = 2, MATERIAL_PLASTIC = 1, MATERIAL_GLASS = 3)
+	spawn_blacklisted = TRUE
+
+/obj/item/stock_parts/scanning_module/AI
+	name = "WB brand scanning module"
+	desc = "A highly advanced scanner, capable of in-depth analysis and scanning on four axix, it produces high resolution scans and provides in-depth material scans. "
+	icon_state = "alien_scan_module"
+	origin_tech = list(TECH_MAGNET = 5)
+	rating = 6
+	matter = list(MATERIAL_STEEL = 2, MATERIAL_PLASTIC = 2, MATERIAL_GLASS = 1)
+	spawn_blacklisted = TRUE
+
+/obj/item/stock_parts/manipulator/AI
+	name = "WB brand manipulator"
+	desc = "An exceedingly costly manipulation arm, designed by the AI for use in various machines, capable of making extremely thin, but durable layers with minimal material costs."
+	icon_state = "alien_mani"
+	origin_tech = list(TECH_MATERIAL = 5, TECH_DATA = 2)
+	rating = 6
+	matter = list(MATERIAL_STEEL = 2, MATERIAL_PLASTIC = 2)
+	spawn_blacklisted = TRUE
+
+/obj/item/stock_parts/micro_laser/AI
+	name = "WB brand laser diode"
+	icon_state = "alien_laser"
+	desc = "A futuristic laser diode, produced by the AI via very costly materials and high power rated parts."
+	origin_tech = list(TECH_MAGNET = 5)
+	rating = 6
+	matter = list(MATERIAL_STEEL = 2, MATERIAL_PLASTIC = 2, MATERIAL_GLASS = 1)
+	spawn_blacklisted = TRUE
+
+/obj/item/stock_parts/matter_bin/AI
+	name = "WB brand storage bin"
+	desc = "A highly advanced matter bin found almost solely within dedicated factories and complex plants within the AIs core worlds."
+	icon_state = "alien_matter"
+	origin_tech = list(TECH_MATERIAL = 5)
+	rating = 6
+	matter = list(MATERIAL_PLASTIC = 3, MATERIAL_GLASS = 1)
+	spawn_blacklisted = TRUE
+
 // debug stock parts - rating 100, intended for debugging
 
 /obj/item/stock_parts/capacitor/debug

@@ -3,7 +3,7 @@
 	flag = ASSISTANT
 	department = DEPARTMENT_CIVILIAN
 	department_flag = CIVILIAN
-	faction = "NEV Northern Light"
+	faction = "MSV-Explorator"
 	total_positions = -1
 	spawn_positions = -1
 	supervisors = "anyone who pays you"
@@ -25,7 +25,7 @@
 
 
 	description = "There are two potential lives before you, and you must choose wisely.<br>\
-In one, you are a vagabond, journeying through the vast expanses of space upon the NEV Northern Light. You will not be paid a wage.<br>\
+In one, you are a vagabond, journeying through the vast expanses of space upon the MSV-Explorator. You will not be paid a wage.<br>\
 Though this does not mean you have no home, as the Northern Light is your home. Whatever planet you may have came from a now distant memory.<br>\
 You remember boarding the Northern Light sometime in your past, when it had a different purpose and a different captain.<br>\
 Over time you've become accustomed to the dangers of this ship.<br>\

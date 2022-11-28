@@ -3,7 +3,7 @@
 	new_player_panel_eclipse_proc()
 
 /mob/new_player/proc/new_player_panel_eclipse_proc()
-	var/output = "<font size=2>Congratulations! You have been granted the luxury to voyage into the unknown on the <B><u>NEV Northern Light</B></u>, one of <B>NanoTrasen's</B> newly refurbished state-of-the-art exploration and scientific survey vessels. Whether you're a NanoTrasen crew member, \
+	var/output = "<font size=2>Congratulations! You have been granted the luxury to voyage into the unknown on the <B><u>MSV-Explorator</B></u>, one of <B>NanoTrasen's</B> newly refurbished state-of-the-art exploration and scientific survey vessels. Whether you're a NanoTrasen crew member, \
 	 a disciple of Mekhane, an Aegis Merc, a Free Trade swabbie or a Lazarus Doctor, welcome!"
 	output += "<br>"
 	output += "<br>"

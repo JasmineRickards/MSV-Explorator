@@ -129,14 +129,14 @@
 	destination_tags = list(
 		"nav_skipjack_northwest",
 		"nav_skipjack_southeast",
-		"nav_skipjack_dock", 
+		"nav_skipjack_dock",
 		"nav_skipjack_start",
 		)
 	shuttle_area =  /area/skipjack_station/start
 	dock_target = "skipjack_shuttle"
 	current_location = "nav_skipjack_start"
 	landmark_transition = "nav_skipjack_transition"
-	announcer = "NEV Northern Light Sensor Array"
+	announcer = "MSV-Explorator Sensor Array"
 	home_waypoint = "nav_skipjack_start"
 	arrival_message = "Attention, unidentified vessel detected on long range sensors. \nVessel is approaching on an intercept course. \nHailing frequencies open."
 	departure_message = "Attention, unknown vessel has departed"
@@ -197,7 +197,7 @@
 	default_docking_controller = "merc_shuttle"
 	current_location = "nav_merc_start"
 	landmark_transition = "nav_merc_transition"
-	announcer = "NEV Northern Light Sensor Array"
+	announcer = "MSV-Explorator Sensor Array"
 	home_waypoint = "nav_merc_start"
 	arrival_message = "Attention, unidentified vessel detected on long range sensors. \nVessel is approaching on an intercept course. \nHailing frequencies open."
 	departure_message = "Attention, unknown vessel has departed"

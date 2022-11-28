@@ -3,7 +3,7 @@
 	disk_name = "Aegis Miscellaneous Pack"
 	icon_state = "ironhammer"
 	rarity_value = 5
-	license = 20
+	license = 30
 	designs = list(
 		/datum/design/autolathe/sec/secflashlight,
 		/datum/design/research/item/flash,
@@ -24,7 +24,7 @@
 	icon_state = "ironhammer"
 	spawn_tags = SPAWN_TAG_DESIGN_ADVANCED_COMMON
 	rarity_value = 12 // one of the more common advanced disks
-	license = 6 // 6 pieces, or 3 sets if you use helm + vest
+	license = 12 // 6 pieces, or 3 sets if you use helm + vest
 	designs = list(
 		/datum/design/autolathe/clothing/generic_helmet_basic,
 		/datum/design/autolathe/clothing/generic_vest,
@@ -37,7 +37,7 @@
 	spawn_tags = SPAWN_TAG_DESIGN_ADVANCED_COMMON
 	spawn_blacklisted = TRUE // Is too easy to acquire and changing the rarity value didn't help much when tested
 	rarity_value = 15 // about as rare as a advanced tool disk - remember that this takes from the 'advanced' pool (which is rare) instead of the 'common' pool like the normal armor disk does
-	license = 4 // 4 pieces, or 2 sets
+	license = 8 // 4 pieces, or 2 sets
 	designs = list(
 		/datum/design/autolathe/clothing/bulletproof_helmet_generic,
 		/datum/design/autolathe/clothing/bulletproof_vest_generic,
@@ -50,7 +50,7 @@
 	spawn_tags = SPAWN_TAG_DESIGN_ADVANCED_COMMON
 	spawn_blacklisted = TRUE // Is too easy to acquire and changing the rarity value didn't help much when tested
 	rarity_value = 16 // slightly rarer than bulletproof gear
-	license = 4 // 4 pieces, or 2 sets
+	license = 8 // 4 pieces, or 2 sets
 	designs = list(
 		/datum/design/autolathe/clothing/ablative_vest_full,
 		/datum/design/autolathe/clothing/ablative_helmet
@@ -60,7 +60,7 @@
 	disk_name = "Aegis Combat Equipment - Operator Armor"
 	icon_state = "ironhammer"
 	spawn_blacklisted = TRUE //should only be obtainable from the sectech
-	license = 6
+	license = 12
 	designs = list(
 		/datum/design/autolathe/clothing/ih_helmet_basic,
 		/datum/design/autolathe/clothing/ih_vest_basic,
@@ -71,7 +71,7 @@
 	disk_name = "Aegis Combat Equipment - Bulletproof Operator Armor"
 	icon_state = "ironhammer"
 	spawn_blacklisted = TRUE
-	license = 4
+	license = 8
 	designs = list(
 		/datum/design/autolathe/clothing/ih_helmet_full,
 		/datum/design/autolathe/clothing/ih_vest_full

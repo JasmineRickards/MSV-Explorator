@@ -4,7 +4,7 @@
 	head_position = 1
 	department = DEPARTMENT_MEDICAL
 	department_flag = MEDICAL | COMMAND
-	faction = "NEV Northern Light"
+	faction = "MSV-Explorator"
 	total_positions = 1
 	spawn_positions = 1
 	supervisors = "Lazarus Foundation"
@@ -38,7 +38,7 @@
 							 /datum/computer_file/program/chem_catalog,
 							 /datum/computer_file/program/reports)
 
-	description = "You are the head of the Medical Bay on the NEV Northern Light and provide medical services to the crew.<br>\
+	description = "You are the head of the Medical Bay on the MSV-Explorator and provide medical services to the crew.<br>\
 You are here to keep everyone alive and ideally, at work. You should make choices that preserve life as much as possible.<br>\
 
 The handling of the medbay is your domain, although remember that both medical and science are branches of Lazarus Foundation, so your colleagues have free access to your resources, and vice versa"
@@ -65,7 +65,7 @@ Your second loyalty is to your career with Lazarus, and to your coworkers in bot
 	flag = DOCTOR
 	department = DEPARTMENT_MEDICAL
 	department_flag = MEDICAL
-	faction = "NEV Northern Light"
+	faction = "MSV-Explorator"
 	total_positions = 5
 	spawn_positions = 5
 	supervisors = "the Chief Medical Officer"
@@ -91,7 +91,7 @@ Your second loyalty is to your career with Lazarus, and to your coworkers in bot
 							/datum/computer_file/program/camera_monitor)
 
 
-	description = "You are a highly educated professional doctor, working a placement aboard the NEV Northern Light to treat the injured.<br>\
+	description = "You are a highly educated professional doctor, working a placement aboard the MSV-Explorator to treat the injured.<br>\
 Your tasks will primarily keep you inside medbay, the place needs to have a doctor onsite at all times to treat incoming wounded. As a general rule, you should not leave medbay if you're the only one in it, make sure someone is covering for you if you go elsewhere.<br>\
 
 As a doctor, a broad range of medical procedures fall under your potential purview. You are not expected to be able to perform all of these yourself, being a specialist is fine. <br>\
@@ -125,7 +125,7 @@ Your second loyalty is to your career with Lazarus, and to your coworkers in bot
 	flag = CHEMIST
 	department = DEPARTMENT_MEDICAL
 	department_flag = MEDICAL
-	faction = "NEV Northern Light"
+	faction = "MSV-Explorator"
 	total_positions = 2
 	spawn_positions = 2
 	supervisors = "the Chief Medical Officer"
@@ -176,7 +176,7 @@ Your second loyalty is to your career with Lazarus, and to your coworkers in bot
 	flag = PSYCHIATRIST
 	department = DEPARTMENT_MEDICAL
 	department_flag = MEDICAL
-	faction = "NEV Northern Light"
+	faction = "MSV-Explorator"
 	total_positions = 1
 	spawn_positions = 1
 	wage = WAGE_PROFESSIONAL
@@ -212,7 +212,7 @@ Your second loyalty is to your career with Lazarus, and to your coworkers in bot
 	flag = PARAMEDIC
 	department = DEPARTMENT_MEDICAL
 	department_flag = MEDICAL
-	faction = "NEV Northern Light"
+	faction = "MSV-Explorator"
 	total_positions = 3
 	spawn_positions = 3
 	supervisors = "the Chief Medical Officer"

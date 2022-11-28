@@ -74,7 +74,7 @@
 	. = ..()
 	var/shipname = "NEV [pick("Magellan", "Gagarin", "Drake", "Horizon", "Aurora")]"
 	if(prob(1))//I don't believe in time travel. Do you?
-		shipname = "NEV Northern Light"
+		shipname = "MSV-Explorator"
 	var/datum/species/S = all_species[SPECIES_HUMAN]
 	var/new_info = {"
 	I am Lieutenant Hao Ru, captain of [shipname], of NanoTrasen Expeditionary Corps.<br>

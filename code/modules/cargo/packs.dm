@@ -90,8 +90,68 @@ var/list/all_supply_groups = list("Operations","Security","Hospitality","Enginee
 					/obj/item/storage/lunchbox/rainbow)
 	cost = 400
 	containertype = /obj/structure/closet/crate
+	crate_name  = "\improper data disks"
+	group = "Operations"
+
+/datum/supply_pack/basicdisks
+	name = "Basic licensed disks x30"
+	contains = list(/obj/spawner/lathe_disk,
+					/obj/spawner/lathe_disk,
+					/obj/spawner/lathe_disk,
+					/obj/spawner/lathe_disk,
+					/obj/spawner/lathe_disk,
+					/obj/spawner/lathe_disk,
+					/obj/spawner/lathe_disk,
+					/obj/spawner/lathe_disk,
+					/obj/spawner/lathe_disk,
+					/obj/spawner/lathe_disk,
+					/obj/spawner/lathe_disk,
+					/obj/spawner/lathe_disk,
+					/obj/spawner/lathe_disk,
+					/obj/spawner/lathe_disk,
+					/obj/spawner/lathe_disk,
+					/obj/spawner/lathe_disk,
+					/obj/spawner/lathe_disk,
+					/obj/spawner/lathe_disk,
+					/obj/spawner/lathe_disk,
+					/obj/spawner/lathe_disk,
+					/obj/spawner/lathe_disk,
+					/obj/spawner/lathe_disk,
+					/obj/spawner/lathe_disk,
+					/obj/spawner/lathe_disk,
+					/obj/spawner/lathe_disk,
+					/obj/spawner/lathe_disk,
+					/obj/spawner/lathe_disk,
+					/obj/spawner/lathe_disk,
+					/obj/spawner/lathe_disk,
+					/obj/spawner/lathe_disk)
+	cost = 15000
+	containertype = /obj/structure/closet/crate
 	crate_name  = "\improper Lunchboxes"
 	group = "Operations"
+
+/datum/supply_pack/advancedisk
+	name = "Advanced licensed disks x15"
+	contains = list(/obj/spawner/lathe_disk/advanced,
+					/obj/spawner/lathe_disk/advanced,
+					/obj/spawner/lathe_disk/advanced,
+					/obj/spawner/lathe_disk/advanced,
+					/obj/spawner/lathe_disk/advanced,
+					/obj/spawner/lathe_disk/advanced,
+					/obj/spawner/lathe_disk/advanced,
+					/obj/spawner/lathe_disk/advanced,
+					/obj/spawner/lathe_disk/advanced,
+					/obj/spawner/lathe_disk/advanced,
+					/obj/spawner/lathe_disk/advanced,
+					/obj/spawner/lathe_disk/advanced,
+					/obj/spawner/lathe_disk/advanced,
+					/obj/spawner/lathe_disk/advanced,
+					/obj/spawner/lathe_disk/advanced,)
+	cost = 20000
+	containertype = /obj/structure/closet/crate
+	crate_name  = "\improper data disks"
+	group = "Operations"
+
 
 /datum/supply_pack/artscrafts
 	name = "Arts and Crafts supplies"
@@ -465,6 +525,38 @@ var/list/all_supply_groups = list("Operations","Security","Hospitality","Enginee
 	cost = 600
 	containertype = /obj/structure/closet/crate/internals
 	crate_name = "Internals crate"
+	group = "Engineering"
+
+/datum/supply_pack/WBparts
+	name = "WB-12 branded parts"
+	contains = list(/obj/item/stock_parts/capacitor/AI,
+					/obj/item/stock_parts/capacitor/AI,
+					/obj/item/stock_parts/capacitor/AI,
+					/obj/item/stock_parts/capacitor/AI,
+					/obj/item/stock_parts/scanning_module/AI,
+					/obj/item/stock_parts/scanning_module/AI,
+					/obj/item/stock_parts/scanning_module/AI,
+					/obj/item/stock_parts/manipulator/AI,
+					/obj/item/stock_parts/manipulator/AI,
+					/obj/item/stock_parts/manipulator/AI,
+					/obj/item/stock_parts/manipulator/AI,
+					/obj/item/stock_parts/manipulator/AI,
+					/obj/item/stock_parts/manipulator/AI,
+					/obj/item/stock_parts/micro_laser/AI,
+					/obj/item/stock_parts/micro_laser/AI,
+					/obj/item/stock_parts/micro_laser/AI,
+					/obj/item/stock_parts/micro_laser/AI,
+					/obj/item/stock_parts/matter_bin/AI,
+					/obj/item/stock_parts/matter_bin/AI,
+					/obj/item/stock_parts/matter_bin/AI,
+					/obj/item/stock_parts/matter_bin/AI,
+					/obj/item/stock_parts/matter_bin/AI,
+					/obj/item/stock_parts/matter_bin/AI,
+					/obj/item/stock_parts/matter_bin/AI,
+					/obj/item/stock_parts/matter_bin/AI)
+	cost = 50000
+	containertype = /obj/structure/largecrate
+	crate_name = "WB brand parts"
 	group = "Engineering"
 
 /datum/supply_pack/sleeping_agent

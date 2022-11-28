@@ -7,7 +7,7 @@
 	flag = CLUBMANAGER
 	department = DEPARTMENT_CIVILIAN
 	department_flag = SERVICE
-	faction = "NEV Northern Light"
+	faction = "MSV-Explorator"
 	total_positions = 1
 	spawn_positions = 1
 	supervisors = "the First Officer"
@@ -24,7 +24,7 @@
 		STAT_VIG = 15,
 	)
 	outfit_type = /decl/hierarchy/outfit/job/service/bartender //Re-using this.
-	description = "As the Club Manager, you run the club aboard CEV Eris. Provide the crewmembers with drinks, food, and entertainment.<br>\
+	description = "As the Club Manager, you run the club aboard MSV-Explorator. Provide the crewmembers with drinks, food, and entertainment.<br>\
 	<br>\
 	Technically you take orders from no one, but the Captain and the First Officer are the ones who hired you and you should strive to please them. Your Club Workers help you run the place and make money. Pay them well!"
 
@@ -44,7 +44,7 @@
 	flag = CLUBWORKER
 	department = DEPARTMENT_CIVILIAN
 	department_flag = SERVICE
-	faction = "NEV Northern Light"
+	faction = "MSV-Explorator"
 	total_positions = 2
 	spawn_positions = 2
 	supervisors = "the Club Manager"
@@ -70,7 +70,7 @@
 	duties = "		Assist the Club Manager with running the club.<br>\
 		Serve customers. Feed customers. Entertain customers.<br>\
 		Protect the Club. Protect the Customers.<br>\
-		Make enough money to stay alive aboard CEV Eris."
+		Make enough money to stay alive aboard MSV-Explorator."
 
 	loyalties = LOYALTY_CIVILIAN
 

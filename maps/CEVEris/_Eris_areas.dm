@@ -1,8 +1,7 @@
 
 ////////////
-//CEV ERIS//
+//MSV-Explorator//
 ////////////
-
 
 /area/eris
 	ship_area = TRUE
@@ -289,7 +288,7 @@
 	name = "V.I.P. Bar"
 	icon_state = "erisblue"
 	area_light_color = COLOR_LIGHTING_CREW_SOFT
-	
+
 /area/eris/command/bridgetoilet
 	name = "V.I.P. Restrooms"
 	icon_state = "erisblue"

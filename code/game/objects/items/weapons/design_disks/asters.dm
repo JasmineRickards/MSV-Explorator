@@ -73,7 +73,7 @@
 	icon_state = "guild"
 	rarity_value = 3
 	spawn_tags = SPAWN_TAG_DESIGN_COMMON
-	license = 10
+	license = 24
 	designs = list(
 		/datum/design/autolathe/misc/flashlight,
 		/datum/design/autolathe/device/analyzer,
@@ -100,7 +100,7 @@
 	icon_state = "guild"
 	rarity_value = 3
 	spawn_tags = SPAWN_TAG_DESIGN_COMMON
-	license = 10
+	license = 24
 	designs = list(
 		/datum/design/autolathe/cell/large,
 		/datum/design/autolathe/cell/large/high = 2,
@@ -115,7 +115,7 @@
 	icon_state = "guild"
 	spawn_tags = SPAWN_TAG_DESIGN_ADVANCED_COMMON
 	rarity_value = 13 // between standard and bulletproof armor
-	license = 6
+	license = 18
 	designs = list(
 		/datum/design/autolathe/clothing/generic_helmet_visored,
 		/datum/design/autolathe/clothing/riot_helmet = 2,
